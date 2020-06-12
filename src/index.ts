@@ -10,7 +10,7 @@ export interface ResponseTimeOptions {
 }
 
 export class PluginResponseTime extends Plugin<Plugin.Web> {
-  constructor(options: ResponseTimeOptions) {
+  constructor(options: ResponseTimeOptions = {}) {
     super();
     this.use(responseTime(options));
   }
