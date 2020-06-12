@@ -1,0 +1,11 @@
+{
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "html.format.endWithNewline": true,
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "cSpell.ignoreWords": [
+    "fomex",
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "fomex-response-time",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:fomex-ts/fomex-response-time.git",
+  "author": "范文华 <531362022@qq.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "peerDependencies": {
+    "fomex": ">=0.1.0"
+  },
+  "dependencies": {
+    "koa-response-time": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/koa-response-time": "^2.1.0",
+    "fomex": "^0.0.63",
+    "typescript": "3.9.5"
+  }
+}
