@@ -458,7 +458,7 @@ keygrip@~1.1.0:
   dependencies:
     tsscmp "1.0.6"
 
-koa-response-time@^2.1.0:
+koa-response-time@2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/koa-response-time/-/koa-response-time-2.1.0.tgz#bc8473207255fcbddaf10004bd7a8e59f2e948c9"
   integrity sha512-W2YvnmqmmdEwjJh2rvUPqDD+yjnKvIQry6JhV9dHEwGpfcRzjmQBRVNg62Czbvut/Dpf+l7b9uFauet157UeUQ==

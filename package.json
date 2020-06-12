@@ -12,7 +12,7 @@
     "fomex": ">=0.1.0"
   },
   "dependencies": {
-    "koa-response-time": "^2.1.0"
+    "koa-response-time": "2.1.0"
   },
   "devDependencies": {
     "@types/koa-response-time": "^2.1.0",
