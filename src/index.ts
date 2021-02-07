@@ -1,4 +1,4 @@
-import { Plugin } from 'fomex';
+import { Slot } from 'qoq';
 import responseTime from 'koa-response-time';
 
 export interface ResponseTimeOptions {
@@ -9,7 +9,7 @@ export interface ResponseTimeOptions {
   hrtime?: boolean;
 }
 
-export class PluginResponseTime extends Plugin<Plugin.Web> {
+export class ResponseTime extends Slot<Slot.Web> {
   constructor(options: ResponseTimeOptions = {}) {
     super();
     this.use(responseTime(options));
