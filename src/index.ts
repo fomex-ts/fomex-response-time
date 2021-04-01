@@ -1,16 +1,10 @@
 import { Slot } from 'qoq';
 import responseTime from 'koa-response-time';
 
-export interface ResponseTimeOptions {
-  /**
-   * `true` to use time in nanoseconds.
-   * `false` to use time in milliseconds. (Default)
-   */
-  hrtime?: boolean;
-}
+export type Options = NonNullable<Parameters<typeof responseTime>[0]>;
 
 export class ResponseTime extends Slot<Slot.Web> {
-  constructor(options: ResponseTimeOptions = {}) {
+  constructor(options: Options = {}) {
     super();
     this.use(responseTime(options));
   }
