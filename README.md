@@ -1,4 +1,5 @@
 # Response Time
+
 X-Response-Time middleware based on [koa-response-time](https://github.com/koajs/response-time) for qoq.
 
 # Installation
@@ -8,6 +9,7 @@ yarn add qoq-response-time
 ```
 
 # Usage
+
 ```typescript
 import { WebSlotManager } from 'qoq';
 import { ResponseTime } from 'qoq-response-time';
